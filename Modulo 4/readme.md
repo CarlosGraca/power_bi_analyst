@@ -1,3 +1,4 @@
+# Descrição do desafio módulo 3 – Processamento de Dados Simplificado com Power BI
 ###	Criação de uma instância na Azure para MySQL
  ![image](https://github.com/user-attachments/assets/64f63f97-fabe-40d2-aa34-45463a2c511d)
 
@@ -20,7 +21,7 @@
         on delete set null
         on update cascade;
 
-## No Power BI
+## transformação dos dados - Power BI
 #### Removocao de colunas "Table"  em todas as tabelas
 #### Modificao de todas numeros para inteiro
 #### Valores monetários(salary) para o tipo double preciso
@@ -45,6 +46,6 @@
 ### Mesclar e não o atribuir
 #### Nesse exemplo queriamos mostrar os colocaboradores por departamento, sendo assim melhor e ter uma coluna a esquerda ou direita para melhor analise do que ter uma linha acrescentado que nao ajudaria na intepretacao dos resultados. E mesma leitura para a outra figura.
 
-Contagem de Cololaborador pro gerente
+### Contagem de Cololaborador por gerente
 ![image](https://github.com/user-attachments/assets/048c39af-9350-4071-9742-69180e009c44)
 
