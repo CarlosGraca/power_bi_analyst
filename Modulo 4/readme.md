@@ -38,6 +38,13 @@
     (select concat(g.fname, " ", g.lname) from employee g where g.ssn = c.Super_ssn)  gerente
     from employee c;
 
+### Combinação departamento-local
+![image](https://github.com/user-attachments/assets/346abaa9-c0c3-46db-9740-c5f82e2eefa1)
+
+
 ### Mesclar e não o atribuir
 #### Nesse exemplo queriamos mostrar os colocaboradores por departamento, sendo assim melhor e ter uma coluna a esquerda ou direita para melhor analise do que ter uma linha acrescentado que nao ajudaria na intepretacao dos resultados. E mesma leitura para a outra figura.
+
+Contagem de Cololaborador pro gerente
+![image](https://github.com/user-attachments/assets/048c39af-9350-4071-9742-69180e009c44)
 
